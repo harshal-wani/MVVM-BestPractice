@@ -12,6 +12,8 @@
 		F883A0F01FDD4AD100CC46EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F883A0EF1FDD4AD100CC46EC /* Assets.xcassets */; };
 		F883A0F31FDD4AD100CC46EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F883A0F11FDD4AD100CC46EC /* LaunchScreen.storyboard */; };
 		F883A0FE1FDD4B0C00CC46EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883A0FD1FDD4B0C00CC46EC /* ViewController.swift */; };
+		F883A1001FDD4E1400CC46EC /* EmployeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883A0FF1FDD4E1400CC46EC /* EmployeeModel.swift */; };
+		F883A1021FDD4E3500CC46EC /* EmployeeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F883A1011FDD4E3500CC46EC /* EmployeeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		F883A0F21FDD4AD100CC46EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F883A0F41FDD4AD100CC46EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F883A0FD1FDD4B0C00CC46EC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F883A0FF1FDD4E1400CC46EC /* EmployeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeModel.swift; sourceTree = "<group>"; };
+		F883A1011FDD4E3500CC46EC /* EmployeeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,7 @@
 		F883A0FA1FDD4B0B00CC46EC /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				F883A1011FDD4E3500CC46EC /* EmployeeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -76,6 +81,7 @@
 		F883A0FB1FDD4B0C00CC46EC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F883A0FF1FDD4E1400CC46EC /* EmployeeModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -160,7 +166,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F883A1001FDD4E1400CC46EC /* EmployeeModel.swift in Sources */,
 				F883A0FE1FDD4B0C00CC46EC /* ViewController.swift in Sources */,
+				F883A1021FDD4E3500CC46EC /* EmployeeViewModel.swift in Sources */,
 				F883A0E91FDD4AD100CC46EC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
